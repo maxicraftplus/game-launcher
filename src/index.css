@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+
+button {
+  border: unset;
+  color: white;
+} button:focus {
+  outline: unset;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(37, 37, 37);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 1rem;
+  /* padding: 2rem; */
+  color: white;
+}
+
+.game {
+  display: block;
+  width: 75mm;
+  height: 100mm;
+  background-color: rgb(61, 61, 61);
+  margin-left: 10mm;
+}
+
+.bottom-selector {
+  background-color: rgb(61, 61, 61);
+  margin-top: 82mm;
+  height: 12mm;
+  /* line-height: 9mm; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  width: 100%;
+  text-align: center;
+  border-top: solid rgb(37, 37, 37);
+  font-size: 6mm;
+  font-weight: bolder;
+}
+.bottom-selector:hover {
+  cursor: pointer;
+}
+
+
+#set-game {
+  text-align: center;
+  padding: 0;
+  position: relative;
+}
+#set-game > h2 {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+.select-game-name {
+  position: fixed;
+  display: none;
+  width: 150mm;
+  height: 150mm;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(61, 61, 61);
+  border: solid rgb(32, 32, 32);
+  padding: 10px;
+}
